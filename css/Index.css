@@ -1,0 +1,109 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;} 
+
+body {
+    background-image: url(../multimedia/fondoPagina.jpg);
+    background-size: cover; /* Escala la imagen para cubrir toda el área */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 100%; /* Ocupa todo el ancho */
+  background-color: #333; /* Color de fondo */
+  color: white; /* Texto en blanco */
+  text-align: center; /* Texto centrado */
+  padding: 20px; /* Espaciado interno */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #e74c3c;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.heart {
+    color: #e74c3c;
+    font-size: 4rem;
+    text-align: center;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.message {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.love-form {
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.love-input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 1px solid #e74c3c;
+    border-radius: 4px 0 0 4px;
+    font-size: 1rem;
+}
+
+.love-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.love-quotes {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.love-quotes h2 {
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.love-quotes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.love-quotes li {
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
